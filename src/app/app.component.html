@@ -1,0 +1,17 @@
+<app-header></app-header>
+<div *ngIf="showHome">
+  <app-home></app-home>
+</div>
+<div *ngIf="showLogin">
+  <app-login></app-login>
+</div>
+<div *ngIf="showChangePassword">
+  <app-change-password></app-change-password>
+</div>
+<div *ngIf="showProducts">
+  <app-list-of-products></app-list-of-products>
+</div>
+<div *ngIf="showContact">
+  <app-contact></app-contact>
+</div>
+<app-footer></app-footer>

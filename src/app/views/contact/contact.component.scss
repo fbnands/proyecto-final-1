@@ -1,0 +1,55 @@
+.row {
+  padding: 200px 100px;
+}
+.direccion h2{
+  margin-bottom: 10px;
+  top: 10px;
+  text-align: center;
+}
+.telefono h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-table{
+  padding-bottom: 20px;
+}
+
+.espacio{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formulario h2{
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #af477b;
+  padding-bottom: 10px;
+}
+.formulario tr, th, td {
+  text-align: center;
+}
+.formulario label{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.formulario input{
+  margin-bottom: 20px;
+  width: 500px;
+  height: 30px;
+}
+.formulario textarea {
+  width: 500px;
+}
+button{
+  background-color: #af477b;
+  height: 30px;
+  width: 150px;
+  border: 1px solid #d8509b;
+  border-radius: 5px;
+}
+button:active{
+  background-size: 200%;
+  transform: scale(1.1);
+
+}

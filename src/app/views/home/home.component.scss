@@ -1,0 +1,130 @@
+header{
+  background-image: url(../../../assets/home/dannie.jpg);background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 40vw;
+  width: 100vw;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+.section1{
+  height: 130vw;
+}
+
+.section1{
+  background-image: url(../../../assets/home/div1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container1{
+  background-color: white;
+  background-attachment: fixed;
+  padding-top: 50px;
+  height: 500px;
+}
+.container1 div img{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.btn-c1{
+  cursor: pointer;
+  position: absolute;
+  background-color: #7c1668;
+  color: #fff;
+  font-size: 1rem;
+  height: 40px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 350px;
+  margin-right: 70vw;
+  border-radius: 2px;
+}
+.btn-c1:hover{
+  background-size: 200%;
+  background-color: #9b3c88;
+  transform: scale(1.01);
+}
+.btn-c1:active {
+  background-color: #d04db6;
+}
+
+.container2{
+  background-color: white;
+  height: 50vw;
+  width: 50vw ;
+  margin-left: 50vw;
+}
+.titulo-c2 h2{
+  font-size: 70px;
+}
+.titulo-c2 h5{
+  border-bottom: 2px solid #af477b;
+  font-size: 20px;
+  color: #af477b;
+
+}
+
+.iconos a img{
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.title-table{
+  padding-bottom: 30px;
+  color: #af477b;
+}
+.espacio{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn-c2 a{
+  cursor: pointer;
+  background-color: #7c1668;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 2px;
+}
+.btn-c2 a:hover{
+  background-size: 200%;
+  background-color: #9b3c88;
+  transform: scale(1.01);
+}
+.btn-c2 a:active {
+  background-color: #d04db6;
+}
+.container3{
+  background-color: white;
+  height: 50vw;
+  width: 50vw ;
+}
+.title-c3 h3{
+  font-size: 70px;
+}
+.iconos-c3 a{
+  background-color: #7c1668;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50px;
+}
+.iconos-c3 a:hover{
+  background-size: 200%;
+  transform: scale(1.1);
+}
+.section2{
+  background-color: white;
+  width: 100vw;
+  margin: 100px 0;
+}

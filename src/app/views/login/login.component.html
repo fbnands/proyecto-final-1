@@ -1,0 +1,45 @@
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center mb-5">
+        <h2 class="heading-section">Ingresa a tu cuenta</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-5">
+        <div class="login-wrap p-4 p-md-5">
+          <div class="icon d-flex align-items-center justify-content-center">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="text-center mb-4"></h3>
+          <form action="#" class="login-form">
+            <div class="form-groupOne">
+              <input type="text" class="form-control rounded-left" name="email" placeholder="Correo" [(ngModel)]="credentials.email" required>
+            </div>
+         
+            <div class="form-group d-flex">
+              <input type="password" class="form-control rounded-left" placeholder="Contraseña" name="password" [(ngModel)]="credentials.password" required>
+            </div>
+            <div class="form-group d-md-flex">
+              <div class="w-50">
+                <label class="checkbox-wrap checkbox-primary">Recuerdame
+                  <input type="checkbox" checked>
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="w-50 text-md-right">
+                <a (click)="navigateToChangePassword()">¿Olvidaste tu contraseña?</a>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary rounded submit p-3 px-5" (click)="login()">¡Vamos!</button>
+            </div>
+            <div *ngIf="isError" class="errorMessage">
+              <p style="color:red;">{{ errorMessage }}</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
